@@ -8,11 +8,11 @@ Import python scripts over the web!
 
 **Linux/MacOS**
 ```bash 
-python -m pip install git+https://github.com/Bod-Studios/Bagel.git@main
+python -m pip install install git+https://github.com/Bod-Studios/Bagel.git@main#egg=bagel
 ```
 **Windows**
 ```bash
-py -m pip install git+https://github.com/Bod-Studios/Bagel.git@main
+py -m pip install git+https://github.com/Bod-Studios/Bagel.git@main#egg=bagel
 ```
 
 ### Basic Usage
@@ -33,6 +33,5 @@ test = webImport("https://pastebin.com/raw/rtTstHLB")
 
 
 hi = test.Hello()
-
 
 ```
