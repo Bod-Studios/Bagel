@@ -29,4 +29,10 @@ MYFILE = WebImport("https://someurl.com/funscript.py")
 from bagel import webImport
 
 
+test = webImport("https://pastebin.com/raw/rtTstHLB")
+
+
+hi = test.Hello()
+
+
 ```
