@@ -9,10 +9,12 @@ Import python scripts over the web!
 **Linux/MacOS**
 ```bash 
 python -m pip install git+https://github.com/Bod-Studios/Bagel.git@main
+python -m pip install colored
 ```
 **Windows**
 ```bash
 py -m pip install git+https://github.com/Bod-Studios/Bagel.git@main
+py -m pip install colored
 ```
 
 ### Basic Usage
