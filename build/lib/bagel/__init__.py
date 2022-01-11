@@ -1,4 +1,4 @@
-from .core import webImport, zipWebImport
+from .core import webImport
 
 
 import os
@@ -20,4 +20,4 @@ class program():
     def __del__(self): # No more dameons
         # All Classes 
         deleteZipFiles() # Remove Temp
-
+        

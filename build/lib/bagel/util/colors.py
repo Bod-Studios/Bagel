@@ -1,4 +1,4 @@
-import colored # type: ignored
+import colored
 
 Ok = colored.bg(208)    
 Reset = colored.style.RESET
