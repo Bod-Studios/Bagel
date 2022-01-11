@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/bin/python3",
+    "python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.12/bin/python",
     "python.linting.flake8Enabled": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
