@@ -29,6 +29,7 @@ def webImport( url: str):
     # flake8: noqa
     FUNC = returnFunc()     # type: ignore
 
+    
 
     for func in FUNC.funcs.items():
             # Can go through multipe because self.funcs 
@@ -38,4 +39,7 @@ def webImport( url: str):
                 setattr(FUNC, str(func[0]), FUNC.funcs.get(func[0]))
                 # exec(f"FUNC.{func}")
 
+    # Check if webExport exsists and then return it instead of something else
+    if hasattr(FUNC, "webExport"):
+        return FUNC.webExport()
     return FUNC
