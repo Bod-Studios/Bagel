@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "/workspace/Bagel/env/bin/python"
+    "python.pythonPath": "/bin/python3",
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.banditEnabled": true
 }
