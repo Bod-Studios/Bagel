@@ -15,11 +15,14 @@ python -m pip install git+https://github.com/Bod-Studios/Bagel.git@main#egg=bage
 py -m pip install git+https://github.com/Bod-Studios/Bagel.git@main#egg=bagel
 ```
 
-### Basic Usage
+### Basic Usage & Edit Config
 ```python
 from bagel import webImport
 
 MYFILE = WebImport("https://someurl.com/funscript.py")
+
+import bagel
+bagel.config.ConfigObject = Config Object -> you create
 
 ```
 
