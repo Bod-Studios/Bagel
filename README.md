@@ -2,6 +2,8 @@
 
 Import python scripts over the web!
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/t/bod-inc/Bagel)
+
 **Doesn't check if it is a real python script, do not feed it a RANDOM website. It will bite.**
 
 ### Installation
